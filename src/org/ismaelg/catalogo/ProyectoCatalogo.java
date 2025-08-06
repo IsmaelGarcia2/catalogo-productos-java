@@ -35,7 +35,7 @@ public class ProyectoCatalogo {
         producto[7] = new Libro(1200, fechaLibro2, "1984", "George Orwell", "Secker & Warburg");
         producto[8] = new Libro(1800, fechaLibro3, "Sapiens: De animales a dioses", "Yuval Noah Harari", "Debate");
 
-        cal.set(2011, Calendar.SEPTEMBER, 14);  // Año, Mes (0-based), Día
+        cal.set(2011, Calendar.SEPTEMBER, 14);  // Año, Mes, Día
         Date fechaComics1 = cal.getTime();
 
         cal.set(2016, Calendar.MAY, 25);
